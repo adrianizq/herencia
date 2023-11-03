@@ -20,4 +20,15 @@ public class Figura {
     public void setArea(double area) {
         this.area = area;
     }
+
+    public Figura() {
+        this.color=Color.NEGRO;
+        this.area=0;
+    }
+    public Figura(Color color, double area) {
+        this.color = color;
+        this.area = area;
+    }
+
+
 }

@@ -13,4 +13,20 @@ public class Cuadrado extends Figura{
     public void setLado(double lado) {
         this.lado = lado;
     }
+
+    public Cuadrado() {
+    }
+
+    public Cuadrado(double lado) {
+        this.lado = lado;
+    }
+
+    public Cuadrado(Color color, double area, double lado) {
+        super(color, area);
+        this.lado = lado;
+    }
+
+    public Cuadrado(Color color, double area) {
+        super(color, area);
+    }
 }
