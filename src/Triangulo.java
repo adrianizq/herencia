@@ -2,7 +2,8 @@ public class Triangulo extends Figura{
     private double base;
     private double altura;
     public void verArea(){
-        System.out.println("Area del Triangulo: " + getArea());
+        //System.out.println("Area del Triangulo: " + getArea());
+        super.verArea();
     }
     public void calcularArea(){
         double area = base * altura /2.0;
